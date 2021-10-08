@@ -19,3 +19,12 @@ total_summary
 lot_summary <- coil %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI), Median=median(PSI), Variance=var(PSI),SD=sd(PSI), .groups = 'keep')
 
 lot_summary
+
+t.test((coil$PSI),mu=mean(coil$PSI))
+
+t.test((coil$PSI),mu=mean(coil$PSI),subset(coil$PSI,coil$Manufacturing_Lot=="Lot1"))
+
+t.test((coil$PSI),mu=mean(coil$PSI),subset(coil$PSI,coil$Manufacturing_Lot=="Lot2"))
+
+t.test((coil$PSI),mu=mean(coil$PSI),subset(coil$PSI,coil$Manufacturing_Lot=="Lot3"))
+
