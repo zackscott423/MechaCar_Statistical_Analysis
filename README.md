@@ -33,8 +33,8 @@ The total summary shows a p-value equal to 1, which means there is not enough ev
 ![t-test_lot3](t-test_lot3.png)
 In each of the lot's t-test results, the p-value is below 0.05, so there is enough evidence to reject the null hypothesis.  Additionally, this reinforces the decision to reject lot 3 suspension coils due to safety risks.  
 
-## Study Design: MechCar vs Competition
-In order to analyze, how MechCar would perform vs. its competition, there are a few metrics that could be analyzed statistically to better understand impact to the consumer's purchase decision:
+## Study Design: MechaCar vs Competition
+In order to analyze, how MechaCar would perform vs. its competition, there are a few metrics that could be analyzed statistically to better understand impact to the consumer's purchase decision:
 * Vehicle Price
 * J.D. Power Ranking
 * Highway MPG
