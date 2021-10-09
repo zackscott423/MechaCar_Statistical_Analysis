@@ -4,9 +4,9 @@ mpg <- read.csv("MechaCar_mpg.csv")
 
 head(mpg)
 
-lm(vehicle_length ~ mpg + vehicle_weight + spoiler_angle + ground_clearance + AWD,data=mpg)
+lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD,data=mpg)
 
-summary(lm(vehicle_length ~ mpg + vehicle_weight + spoiler_angle + ground_clearance + AWD,data=mpg))
+summary(lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD,data=mpg))
 
 coil <- read.csv("Suspension_Coil.csv")
 
